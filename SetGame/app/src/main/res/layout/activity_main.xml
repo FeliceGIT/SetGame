@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+android:background="@drawable/bluebackground"
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal|center_vertical"
+android:orientation="vertical"
+tools:context="com.example.SetGame.MainActivity">
+
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="38dp" />
+
+<LinearLayout
+    android:layout_width="260dp"
+    android:layout_height="79dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/s0010"
+        android:onClick="touchCard"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/s0002"
+        android:onClick="touchCard" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/s0001"
+        android:onClick="touchCard" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/s0000"
+        android:onClick="touchCard" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="260dp"
+    android:layout_height="79dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal">
+
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+        android:background="@drawable/s0021"
+        android:onClick="touchCard" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/s0020"
+        android:onClick="touchCard" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/s0012"
+        android:onClick="touchCard" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/s0011"
+        android:onClick="touchCard" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="260dp"
+    android:layout_height="79dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal">
+
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/s0102"
+        android:onClick="touchCard" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/s0101"
+        android:onClick="touchCard" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/s0022"
+        android:onClick="touchCard" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/s0100"
+        android:onClick="touchCard" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="260dp"
+    android:layout_height="79dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal">
+
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/empty"
+        android:onClick="touchCard"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/empty"
+        android:onClick="touchCard"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/empty"
+        android:onClick="touchCard"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/empty"
+        android:onClick="touchCard"
+        android:visibility="visible" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="260dp"
+    android:layout_height="79dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal">
+
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/empty"
+        android:onClick="touchCard"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/empty"
+        android:onClick="touchCard"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/empty"
+        android:onClick="touchCard"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/empty"
+        android:onClick="touchCard"
+        android:visibility="visible" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="260dp"
+    android:layout_height="79dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/empty"
+        android:onClick="touchCard"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/empty"
+        android:onClick="touchCard"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/empty"
+        android:onClick="touchCard"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/empty"
+        android:onClick="touchCard"
+        android:visibility="visible" />
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="246dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="3dp"
+        android:orientation="horizontal"
+        android:text="Score : 0"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#4CAF50"
+        tools:textStyle="italic" />
+
+<LinearLayout
+    android:layout_width="260dp"
+    android:layout_height="79dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton"
+        android:onClick="addThreeCards"
+        android:text="Add three Cards"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/newGameButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/mybutton"
+        android:onClick="newGame"
+        android:text="New Game"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="13sp" />
+</LinearLayout>
+
+</LinearLayout>
